@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D608BAA162C3A45005268E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D608BA9162C3A45005268E6 /* UIKit.framework */; };
+		2D608BAC162C3A45005268E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D608BAB162C3A45005268E6 /* Foundation.framework */; };
+		2D608BAE162C3A45005268E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D608BAD162C3A45005268E6 /* CoreGraphics.framework */; };
+		2D608BB4162C3A45005268E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D608BB2162C3A45005268E6 /* InfoPlist.strings */; };
+		2D608BB6162C3A45005268E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D608BB5162C3A45005268E6 /* main.m */; };
+		2D608BBA162C3A45005268E6 /* AKPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D608BB9162C3A45005268E6 /* AKPAppDelegate.m */; };
+		2D608BBD162C3A46005268E6 /* AKPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D608BBC162C3A46005268E6 /* AKPMasterViewController.m */; };
+		2D608BC0162C3A46005268E6 /* AKPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D608BBF162C3A46005268E6 /* AKPDetailViewController.m */; };
+		2D608BC3162C3A47005268E6 /* AKPMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D608BC1162C3A47005268E6 /* AKPMasterViewController_iPhone.xib */; };
+		2D608BC6162C3A47005268E6 /* AKPMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D608BC4162C3A47005268E6 /* AKPMasterViewController_iPad.xib */; };
+		2D608BC9162C3A47005268E6 /* AKPDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D608BC7162C3A47005268E6 /* AKPDetailViewController_iPhone.xib */; };
+		2D608BCC162C3A47005268E6 /* AKPDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D608BCA162C3A47005268E6 /* AKPDetailViewController_iPad.xib */; };
+		2D608BD4162C3A48005268E6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D608BD3162C3A48005268E6 /* SenTestingKit.framework */; };
+		2D608BD5162C3A48005268E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D608BA9162C3A45005268E6 /* UIKit.framework */; };
+		2D608BD6162C3A48005268E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D608BAB162C3A45005268E6 /* Foundation.framework */; };
+		2D608BDE162C3A48005268E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D608BDC162C3A48005268E6 /* InfoPlist.strings */; };
+		2D608BE1162C3A48005268E6 /* CustomInputView_AccView_XIBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D608BE0162C3A48005268E6 /* CustomInputView_AccView_XIBTests.m */; };
+		2D608BEB162C3BEF005268E6 /* KeyBoardInputView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D608BEA162C3BEF005268E6 /* KeyBoardInputView_iPad.xib */; };
+		2D608BED162C3C15005268E6 /* KeyBoardInputView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D608BEC162C3C14005268E6 /* KeyBoardInputView_iPhone.xib */; };
+		2D608BF0162C3C9F005268E6 /* KeyBoardInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D608BEF162C3C9F005268E6 /* KeyBoardInputView.m */; };
+		2D608BF6162C498C005268E6 /* KeyBoardAccView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D608BF5162C498B005268E6 /* KeyBoardAccView_iPad.xib */; };
+		2D608BF8162C499F005268E6 /* KeyBoardAccView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D608BF7162C499F005268E6 /* KeyBoardAccView_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D608BD7162C3A48005268E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D608B9C162C3A44005268E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D608BA4162C3A45005268E6;
+			remoteInfo = "CustomInputView-AccView-XIB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D608BA5162C3A45005268E6 /* CustomInputView-AccView-XIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CustomInputView-AccView-XIB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D608BA9162C3A45005268E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D608BAB162C3A45005268E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D608BAD162C3A45005268E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D608BB1162C3A45005268E6 /* CustomInputView-AccView-XIB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomInputView-AccView-XIB-Info.plist"; sourceTree = "<group>"; };
+		2D608BB3162C3A45005268E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D608BB5162C3A45005268E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D608BB7162C3A45005268E6 /* CustomInputView-AccView-XIB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomInputView-AccView-XIB-Prefix.pch"; sourceTree = "<group>"; };
+		2D608BB8162C3A45005268E6 /* AKPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKPAppDelegate.h; sourceTree = "<group>"; };
+		2D608BB9162C3A45005268E6 /* AKPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKPAppDelegate.m; sourceTree = "<group>"; };
+		2D608BBB162C3A46005268E6 /* AKPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKPMasterViewController.h; sourceTree = "<group>"; };
+		2D608BBC162C3A46005268E6 /* AKPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKPMasterViewController.m; sourceTree = "<group>"; };
+		2D608BBE162C3A46005268E6 /* AKPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKPDetailViewController.h; sourceTree = "<group>"; };
+		2D608BBF162C3A46005268E6 /* AKPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKPDetailViewController.m; sourceTree = "<group>"; };
+		2D608BC2162C3A47005268E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AKPMasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		2D608BC5162C3A47005268E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AKPMasterViewController_iPad.xib; sourceTree = "<group>"; };
+		2D608BC8162C3A47005268E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AKPDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		2D608BCB162C3A47005268E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AKPDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		2D608BD2162C3A48005268E6 /* CustomInputView-AccView-XIBTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CustomInputView-AccView-XIBTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D608BD3162C3A48005268E6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2D608BDB162C3A48005268E6 /* CustomInputView-AccView-XIBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomInputView-AccView-XIBTests-Info.plist"; sourceTree = "<group>"; };
+		2D608BDD162C3A48005268E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D608BDF162C3A48005268E6 /* CustomInputView_AccView_XIBTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomInputView_AccView_XIBTests.h; sourceTree = "<group>"; };
+		2D608BE0162C3A48005268E6 /* CustomInputView_AccView_XIBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomInputView_AccView_XIBTests.m; sourceTree = "<group>"; };
+		2D608BEA162C3BEF005268E6 /* KeyBoardInputView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyBoardInputView_iPad.xib; sourceTree = "<group>"; };
+		2D608BEC162C3C14005268E6 /* KeyBoardInputView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyBoardInputView_iPhone.xib; sourceTree = "<group>"; };
+		2D608BEE162C3C9F005268E6 /* KeyBoardInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardInputView.h; sourceTree = "<group>"; };
+		2D608BEF162C3C9F005268E6 /* KeyBoardInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardInputView.m; sourceTree = "<group>"; };
+		2D608BF5162C498B005268E6 /* KeyBoardAccView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyBoardAccView_iPad.xib; sourceTree = "<group>"; };
+		2D608BF7162C499F005268E6 /* KeyBoardAccView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyBoardAccView_iPhone.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D608BA2162C3A45005268E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D608BAA162C3A45005268E6 /* UIKit.framework in Frameworks */,
+				2D608BAC162C3A45005268E6 /* Foundation.framework in Frameworks */,
+				2D608BAE162C3A45005268E6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D608BCE162C3A48005268E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D608BD4162C3A48005268E6 /* SenTestingKit.framework in Frameworks */,
+				2D608BD5162C3A48005268E6 /* UIKit.framework in Frameworks */,
+				2D608BD6162C3A48005268E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D608B9A162C3A43005268E6 = {
+			isa = PBXGroup;
+			children = (
+				2D608BAF162C3A45005268E6 /* CustomInputView-AccView-XIB */,
+				2D608BD9162C3A48005268E6 /* CustomInputView-AccView-XIBTests */,
+				2D608BA8162C3A45005268E6 /* Frameworks */,
+				2D608BA6162C3A45005268E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D608BA6162C3A45005268E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D608BA5162C3A45005268E6 /* CustomInputView-AccView-XIB.app */,
+				2D608BD2162C3A48005268E6 /* CustomInputView-AccView-XIBTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D608BA8162C3A45005268E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D608BA9162C3A45005268E6 /* UIKit.framework */,
+				2D608BAB162C3A45005268E6 /* Foundation.framework */,
+				2D608BAD162C3A45005268E6 /* CoreGraphics.framework */,
+				2D608BD3162C3A48005268E6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D608BAF162C3A45005268E6 /* CustomInputView-AccView-XIB */ = {
+			isa = PBXGroup;
+			children = (
+				2D608BB8162C3A45005268E6 /* AKPAppDelegate.h */,
+				2D608BB9162C3A45005268E6 /* AKPAppDelegate.m */,
+				2D608BBB162C3A46005268E6 /* AKPMasterViewController.h */,
+				2D608BBC162C3A46005268E6 /* AKPMasterViewController.m */,
+				2D608BBE162C3A46005268E6 /* AKPDetailViewController.h */,
+				2D608BBF162C3A46005268E6 /* AKPDetailViewController.m */,
+				2D608BEE162C3C9F005268E6 /* KeyBoardInputView.h */,
+				2D608BEF162C3C9F005268E6 /* KeyBoardInputView.m */,
+				2D608BC1162C3A47005268E6 /* AKPMasterViewController_iPhone.xib */,
+				2D608BC4162C3A47005268E6 /* AKPMasterViewController_iPad.xib */,
+				2D608BC7162C3A47005268E6 /* AKPDetailViewController_iPhone.xib */,
+				2D608BCA162C3A47005268E6 /* AKPDetailViewController_iPad.xib */,
+				2D608BEA162C3BEF005268E6 /* KeyBoardInputView_iPad.xib */,
+				2D608BEC162C3C14005268E6 /* KeyBoardInputView_iPhone.xib */,
+				2D608BF5162C498B005268E6 /* KeyBoardAccView_iPad.xib */,
+				2D608BF7162C499F005268E6 /* KeyBoardAccView_iPhone.xib */,
+				2D608BB0162C3A45005268E6 /* Supporting Files */,
+			);
+			path = "CustomInputView-AccView-XIB";
+			sourceTree = "<group>";
+		};
+		2D608BB0162C3A45005268E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D608BB1162C3A45005268E6 /* CustomInputView-AccView-XIB-Info.plist */,
+				2D608BB2162C3A45005268E6 /* InfoPlist.strings */,
+				2D608BB5162C3A45005268E6 /* main.m */,
+				2D608BB7162C3A45005268E6 /* CustomInputView-AccView-XIB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D608BD9162C3A48005268E6 /* CustomInputView-AccView-XIBTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D608BDF162C3A48005268E6 /* CustomInputView_AccView_XIBTests.h */,
+				2D608BE0162C3A48005268E6 /* CustomInputView_AccView_XIBTests.m */,
+				2D608BDA162C3A48005268E6 /* Supporting Files */,
+			);
+			path = "CustomInputView-AccView-XIBTests";
+			sourceTree = "<group>";
+		};
+		2D608BDA162C3A48005268E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D608BDB162C3A48005268E6 /* CustomInputView-AccView-XIBTests-Info.plist */,
+				2D608BDC162C3A48005268E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D608BA4162C3A45005268E6 /* CustomInputView-AccView-XIB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D608BE4162C3A48005268E6 /* Build configuration list for PBXNativeTarget "CustomInputView-AccView-XIB" */;
+			buildPhases = (
+				2D608BA1162C3A45005268E6 /* Sources */,
+				2D608BA2162C3A45005268E6 /* Frameworks */,
+				2D608BA3162C3A45005268E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CustomInputView-AccView-XIB";
+			productName = "CustomInputView-AccView-XIB";
+			productReference = 2D608BA5162C3A45005268E6 /* CustomInputView-AccView-XIB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D608BD1162C3A48005268E6 /* CustomInputView-AccView-XIBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D608BE7162C3A48005268E6 /* Build configuration list for PBXNativeTarget "CustomInputView-AccView-XIBTests" */;
+			buildPhases = (
+				2D608BCD162C3A48005268E6 /* Sources */,
+				2D608BCE162C3A48005268E6 /* Frameworks */,
+				2D608BCF162C3A48005268E6 /* Resources */,
+				2D608BD0162C3A48005268E6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D608BD8162C3A48005268E6 /* PBXTargetDependency */,
+			);
+			name = "CustomInputView-AccView-XIBTests";
+			productName = "CustomInputView-AccView-XIBTests";
+			productReference = 2D608BD2162C3A48005268E6 /* CustomInputView-AccView-XIBTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D608B9C162C3A44005268E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AKP;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2D608B9F162C3A44005268E6 /* Build configuration list for PBXProject "CustomInputView-AccView-XIB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D608B9A162C3A43005268E6;
+			productRefGroup = 2D608BA6162C3A45005268E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D608BA4162C3A45005268E6 /* CustomInputView-AccView-XIB */,
+				2D608BD1162C3A48005268E6 /* CustomInputView-AccView-XIBTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D608BA3162C3A45005268E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D608BB4162C3A45005268E6 /* InfoPlist.strings in Resources */,
+				2D608BC3162C3A47005268E6 /* AKPMasterViewController_iPhone.xib in Resources */,
+				2D608BC6162C3A47005268E6 /* AKPMasterViewController_iPad.xib in Resources */,
+				2D608BC9162C3A47005268E6 /* AKPDetailViewController_iPhone.xib in Resources */,
+				2D608BCC162C3A47005268E6 /* AKPDetailViewController_iPad.xib in Resources */,
+				2D608BEB162C3BEF005268E6 /* KeyBoardInputView_iPad.xib in Resources */,
+				2D608BED162C3C15005268E6 /* KeyBoardInputView_iPhone.xib in Resources */,
+				2D608BF6162C498C005268E6 /* KeyBoardAccView_iPad.xib in Resources */,
+				2D608BF8162C499F005268E6 /* KeyBoardAccView_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D608BCF162C3A48005268E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D608BDE162C3A48005268E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D608BD0162C3A48005268E6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D608BA1162C3A45005268E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D608BB6162C3A45005268E6 /* main.m in Sources */,
+				2D608BBA162C3A45005268E6 /* AKPAppDelegate.m in Sources */,
+				2D608BBD162C3A46005268E6 /* AKPMasterViewController.m in Sources */,
+				2D608BC0162C3A46005268E6 /* AKPDetailViewController.m in Sources */,
+				2D608BF0162C3C9F005268E6 /* KeyBoardInputView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D608BCD162C3A48005268E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D608BE1162C3A48005268E6 /* CustomInputView_AccView_XIBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D608BD8162C3A48005268E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D608BA4162C3A45005268E6 /* CustomInputView-AccView-XIB */;
+			targetProxy = 2D608BD7162C3A48005268E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D608BB2162C3A45005268E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D608BB3162C3A45005268E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D608BC1162C3A47005268E6 /* AKPMasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D608BC2162C3A47005268E6 /* en */,
+			);
+			name = AKPMasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		2D608BC4162C3A47005268E6 /* AKPMasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D608BC5162C3A47005268E6 /* en */,
+			);
+			name = AKPMasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		2D608BC7162C3A47005268E6 /* AKPDetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D608BC8162C3A47005268E6 /* en */,
+			);
+			name = AKPDetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		2D608BCA162C3A47005268E6 /* AKPDetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D608BCB162C3A47005268E6 /* en */,
+			);
+			name = AKPDetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		2D608BDC162C3A48005268E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D608BDD162C3A48005268E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D608BE2162C3A48005268E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D608BE3162C3A48005268E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D608BE5162C3A48005268E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomInputView-AccView-XIB/CustomInputView-AccView-XIB-Prefix.pch";
+				INFOPLIST_FILE = "CustomInputView-AccView-XIB/CustomInputView-AccView-XIB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D608BE6162C3A48005268E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomInputView-AccView-XIB/CustomInputView-AccView-XIB-Prefix.pch";
+				INFOPLIST_FILE = "CustomInputView-AccView-XIB/CustomInputView-AccView-XIB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2D608BE8162C3A48005268E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomInputView-AccView-XIB.app/CustomInputView-AccView-XIB";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomInputView-AccView-XIB/CustomInputView-AccView-XIB-Prefix.pch";
+				INFOPLIST_FILE = "CustomInputView-AccView-XIBTests/CustomInputView-AccView-XIBTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2D608BE9162C3A48005268E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomInputView-AccView-XIB.app/CustomInputView-AccView-XIB";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomInputView-AccView-XIB/CustomInputView-AccView-XIB-Prefix.pch";
+				INFOPLIST_FILE = "CustomInputView-AccView-XIBTests/CustomInputView-AccView-XIBTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D608B9F162C3A44005268E6 /* Build configuration list for PBXProject "CustomInputView-AccView-XIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D608BE2162C3A48005268E6 /* Debug */,
+				2D608BE3162C3A48005268E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D608BE4162C3A48005268E6 /* Build configuration list for PBXNativeTarget "CustomInputView-AccView-XIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D608BE5162C3A48005268E6 /* Debug */,
+				2D608BE6162C3A48005268E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D608BE7162C3A48005268E6 /* Build configuration list for PBXNativeTarget "CustomInputView-AccView-XIBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D608BE8162C3A48005268E6 /* Debug */,
+				2D608BE9162C3A48005268E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D608B9C162C3A44005268E6 /* Project object */;
+}
